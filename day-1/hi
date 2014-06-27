@@ -1,0 +1,10 @@
+class FriendlyPrompt
+
+  def hi(array)
+    array.each do |counter|
+      puts "Hi there #{counter}"
+    end
+  end
+
+  friendy_prompt = FriendlyPrompt.new
+  friendly_prompt.hi ["nan", nan1]
